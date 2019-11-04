@@ -6,6 +6,7 @@ view: order_items {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    label: "ID"
   }
 
   dimension_group: created {
